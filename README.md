@@ -1,0 +1,1 @@
+1.) The "lcd" zip file contains the code that can be implemented in STM32CubeIDE ,this is built using STM32F103C8 (Blue Pill) ,LCD (using I2C Communication). For connection Port B pin number 6 and 7 are used for I2C communication.
