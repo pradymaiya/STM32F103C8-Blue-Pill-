@@ -9,10 +9,10 @@
 #define SCREEN_ADDRESS 0x3C
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-// Define the analog pin connected to the MQ-2 A0 output
-#define MQ2_ANALOG_PIN PA0
+#define MQ2_ANALOG_PIN PA6
 
-float baselineValue = 0; // Baseline analog value in clean air
+float baselineValue = 0; 
+
 
 void setup() {
   Serial.begin(9600);
